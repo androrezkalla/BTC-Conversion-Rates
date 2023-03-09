@@ -49,31 +49,31 @@ export const ConversionRates = () => {
       {btcData && (
         <div>
           <h2 id="current-rates">Current Conversion Rates</h2>
-          <table style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '50vh' }}>
+          <table style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '50vh' }} cellPadding={10} cellSpacing={10}>
             <tbody>
               <tr>
-                <td>$ (USD) to BTC</td>
+                <td>$USD to BTC</td>
                 <td>{btcData.bpi.USD.rate}</td>
               </tr>
               <tr>
-                <td>1 BTC to $ (USD)</td>
+                <td>BTC to $USD</td>
                 <td>{btcData.bpi.USD.rate_float.toFixed(2)}</td>
               </tr>
               <tr>
-                <td>€ (EUR) to BTC</td>
+                <td>€EUR to BTC</td>
                 <td>{btcData.bpi.EUR.rate}</td>
               </tr>
               <tr>
-                <td>1 BTC to € (EUR)</td>
+                <td>BTC to €EUR</td>
                 <td>{btcData.bpi.EUR.rate_float.toFixed(2)}</td>
               </tr>
               <tr>
-                <td>£ (GBP) to BTC</td>
+                <td>£GBP to BTC</td>
                 <td>{btcData.bpi.GBP.rate}
             </td>
           </tr>
           <tr>
-            <td>1 BTC to £ (GBP)</td>
+            <td>BTC to £GBP</td>
             <td>{btcData.bpi.GBP.rate_float.toFixed(2)}</td>
           </tr>
         </tbody>
