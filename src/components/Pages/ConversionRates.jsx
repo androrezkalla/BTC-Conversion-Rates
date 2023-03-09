@@ -49,7 +49,7 @@ export const ConversionRates = () => {
       {btcData && (
         <div>
           <h2 id="current-rates">Current Conversion Rates</h2>
-          <table style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '50vh' }} cellPadding={10} cellSpacing={10}>
+          <table className='conversion-table'>
             <tbody>
               <tr>
                 <td>$USD to BTC</td>

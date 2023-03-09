@@ -40,3 +40,32 @@
 .read-the-docs {
   color: #888;
 }
+
+.conversion-table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333333;
+  background-color: #f8f8f8;
+}
+
+.conversion-table th, .conversion-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+}
+
+.conversion-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.conversion-table td:first-child {
+  font-weight: bold;
+}
+
+.conversion-table td:nth-child(2) {
+  font-weight: normal;
+}
